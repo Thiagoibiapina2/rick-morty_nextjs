@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 23%;
+    border-radius: 1em;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    border: 1px solid #1983b4;
+    color: black;
+}
+
+.card .name {
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-size: 1.4em;
+}
+
+.card .btn {
+    text-decoration: none;
+    background-color: #1983b4;
+    color: white;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.card .btn:hover {
+    transform: scale(0.96);
+    transition: 1s;
+}
+
+.noSearch {
+    margin-left: 420px;
+    font-size: 2rem;
+    margin-bottom: 600px;
+}
+

@@ -1,0 +1,33 @@
+.pagination {
+    justify-content: center;
+    color: #1983b4;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #1983b4;;
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #1983b4;
+}
+
+.pagination li:hover {
+    background-color: #1983b4;
+    color: white;
+    cursor: pointer;
+}
+
+
+

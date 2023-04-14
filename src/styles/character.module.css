@@ -1,0 +1,22 @@
+.character_container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.6em;
+    text-transform: capitalize;
+    color: black;
+    padding: 0.3em;
+    margin: 0.8em auto;
+    width: 300px;
+}
+
+.info {
+    font-size: 1.3em;
+    color: black;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
