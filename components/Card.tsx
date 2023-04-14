@@ -15,7 +15,7 @@ export default function Card ({ results }: CardProps) {
     const { id, name, image} = x
 
     return(
-     <div className={styles.card}>
+     <div className={styles.card} key={id}>
       <Image
        src={image}
        width="200"
